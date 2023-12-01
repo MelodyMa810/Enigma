@@ -1,7 +1,7 @@
 # Enigma
 The [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine) is a cipher machine used greatly by Nazi Germany during World War II to deliver top-secrete messages. Essentially, each input message is enciphered through permutations and can be deciphered subsequently by recipients. In this project, I built a simplified version of the Enigma machine.
 
-Below is a list of all the features I implemented:<br>
+For my machine, it contains reflectors, moving rotors, fixed rotors and permutations. Below is a list of all the features I implemented:<br>
 ```class Machine``` class that represents a complete enigma machine<br>
 ```class Alphabet``` an alphabet of encodable characters - provides a mapping from characters to and from indices into the alphabet<br>
 ```class FixedRotor``` class that represents a rotor that has no ratchet and does not advance<br>
